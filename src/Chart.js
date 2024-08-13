@@ -165,11 +165,11 @@ const FetchApiWithMetrics = () => {
 
 let percentage = 0
 if (url === "https://zinny.pythonanywhere.com/api/agendas") {
-  percentage = 93
+  percentage = 95
 } else if (url === "https://blogapiserver.pythonanywhere.com/api/posts") {
-  percentage = 87
+  percentage = 91
 } else if (url === "https://jsonplaceholder.typicode.com/todos") {
-  percentage = 81
+  percentage = 89
 } 
 
 console.log(successRate)
